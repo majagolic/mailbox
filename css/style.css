@@ -76,6 +76,7 @@ body .drugi header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 body .drugi header form {
   width: 30%;
@@ -98,7 +99,8 @@ body .drugi header .podaci .ime {
   flex-wrap: wrap;
 }
 body .drugi header img {
-  width: 30px;
+  width: 40px;
+  margin-left: 10px;
 }
 body .drugi header .burger {
   display: none;
@@ -107,24 +109,38 @@ body .drugi .sanduce {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  border: 2px solid #264e70;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
 }
 body .drugi .sanduce nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border-bottom: 2px solid #264e70;
 }
 body .drugi .sanduce nav ul li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-right: 20px;
+  align-items: center;
 }
 body .drugi .sanduce nav ul li img {
   width: 30px;
+  margin-right: 20px;
+  margin-bottom: 5px;
 }
 body .drugi .poruka {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border: 2px solid #ffb4ac;
+  border-radius: 5px;
+  height: 8%;
+  margin-bottom: 10px;
+  background-color: #016393;
 }
 body .drugi .poruka div {
   display: flex;

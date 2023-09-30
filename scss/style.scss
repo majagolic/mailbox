@@ -84,6 +84,7 @@ body{
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
+            margin-bottom: 10px;
 
             form{
                 width: 30%;
@@ -108,7 +109,8 @@ body{
             }
 
             img{
-                width: 30px;
+                width: 40px;
+                margin-left: 10px;
             }
             .burger{
                 display: none;
@@ -118,17 +120,28 @@ body{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            border: 2px solid $blue_color;
+            border-radius: 5px;
+            padding: 10px;
+            height: 100%;
             nav{
                 ul{
                     display: flex;
                     flex-direction: row;
                     flex-wrap: wrap;
+                    border-bottom: 2px solid $blue_color;
                     li{
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
+                        margin-right: 20px;
+                        align-items: center;
+                        
+                        
                         img{
                             width: 30px;
+                            margin-right: 20px;
+                            margin-bottom: 5px;
                         }
                     }
                 }
@@ -138,6 +151,11 @@ body{
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            border: 2px solid $rose_color;
+            border-radius: 5px;
+            height: 8%;
+            margin-bottom: 10px;
+            background-color: $blue_email_background;
             
             div{
                 display: flex;
