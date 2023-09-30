@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  height: 100vh;
+}
+body .prvi {
+  width: 20%;
+  border-right: 2px solid #ffb4ac;
+  padding: 20px;
+}
+body .prvi .gore {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+body .prvi .gore img {
+  width: 30px;
+}
+body .prvi .gore .logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .prvi .gore .logo img {
+  width: 30px;
+  margin-right: 5px;
+}
+body .prvi .gore .logo h1 {
+  color: #679186;
+}
+body .prvi .nav1 {
+  margin-bottom: 10px;
+}
+body .prvi .nav1 ul li {
+  list-style-type: none;
+  border-bottom: 2px solid #679186;
+  padding: 7px;
+}
+body .prvi .nav1 ul li img {
+  width: 30px;
+  margin-right: 20px;
+}
+body .prvi .nav2 ul .extra {
+  border: none;
+}
+body .prvi .nav2 ul li {
+  list-style-type: none;
+  border-bottom: 2px solid #679186;
+  padding: 10px;
+}
+body .prvi .nav2 ul li img {
+  width: 30px;
+  margin-right: 20px;
+}
+body .prvi .nav2 ul li h3 {
+  color: #264e70;
+}
+body .drugi {
+  width: 80%;
+  padding: 20px;
+}
+body .drugi header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .drugi header form {
+  width: 30%;
+}
+body .drugi header form input {
+  width: 100%;
+  height: 80%;
+  box-shadow: 1px 1px inset lightgrey;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+body .drugi header .podaci {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .drugi header .podaci .ime {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body .drugi header img {
+  width: 30px;
+}
+body .drugi header .burger {
+  display: none;
+}
+body .drugi .sanduce {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body .drugi .sanduce nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .drugi .sanduce nav ul li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .drugi .sanduce nav ul li img {
+  width: 30px;
+}
+body .drugi .poruka {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .drugi .poruka div {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */
