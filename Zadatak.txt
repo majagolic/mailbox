@@ -1,0 +1,24 @@
+FED: Prvi parcijalni test
+----------------------------------------------------------------------------------------------------------------------
+
+ZADATAK:
+	Korišćenjem HTML i Sass tehnologija realizovati HTML stranicu prikazanu na slikama.
+	Implementirati sledeće zahteve:
+
+	1.	Sass kod modularizovati minimalno tako da se korišćene promenljive i mixini pišu u posebnim sass datotekama koje se uključuju u glavni fajl.
+	2.	Boje, fontove kao i ostale korisne vrednosti izdvojiti u sass promenljive.
+	3.	Realizovati sledeće efekte:
+        	a.	Kada se mišem pređe preko linkova u navigaciji efekat je prikazan na slici "hover_mali_ekran.gif".
+        	b.	Kada se mišem pređe preko pojedinačne email poruke efekat je prikazan na slici "hover_veliki_ekran.gif".
+	4.	Realizovati responsive verzije stranice kao na priloženim slikama.
+	5.	Verzionisati kod korišćenjem git-a.
+
+BOJE:
+    rose: #ffb4ac;
+    olive: #679186;
+    blue: #264e70;
+    beige: #ffebd3;
+    bg-blue: #016393; # pozadina email poruke
+
+WEB FONTOVI:
+	Roboto # Naslov sajta i ime korisnika
