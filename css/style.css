@@ -87,6 +87,7 @@ body .drugi header form input {
   box-shadow: 1px 1px inset lightgrey;
   border-radius: 5px;
   padding-left: 5px;
+  border-color: lightgrey;
 }
 body .drugi header .podaci {
   display: flex;
@@ -97,6 +98,7 @@ body .drugi header .podaci .ime {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  color: #264e70;
 }
 body .drugi header img {
   width: 40px;
@@ -119,6 +121,7 @@ body .drugi .sanduce nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   border-bottom: 2px solid #264e70;
+  margin-bottom: 5px;
 }
 body .drugi .sanduce nav ul li {
   display: flex;
@@ -126,6 +129,7 @@ body .drugi .sanduce nav ul li {
   flex-wrap: wrap;
   margin-right: 20px;
   align-items: center;
+  color: #264e70;
 }
 body .drugi .sanduce nav ul li img {
   width: 30px;
@@ -141,10 +145,64 @@ body .drugi .poruka {
   height: 8%;
   margin-bottom: 10px;
   background-color: #016393;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 body .drugi .poruka div {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+body .drugi .poruka div h2 {
+  color: #ffb4ac;
+  margin-right: 15px;
+  border: 0.1px solid #264e70;
+  border-radius: 50px;
+  background-color: #264e70;
+  padding: 5px;
+}
+body .drugi .poruka div p {
+  color: #ffebd3;
+}
+body .drugi .poruka p {
+  color: #ffebd3;
+}
+
+@media screen and (max-width: 950px) {
+  .nav2 {
+    display: none;
+  }
+  .sanduce #nav_bar ul li {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .prvi {
+    display: none;
+  }
+  body {
+    width: 100%;
+  }
+  body .drugi {
+    width: 100%;
+  }
+  body .drugi header form {
+    display: none;
+  }
+  body .drugi header .burger {
+    display: flex;
+  }
+  body .drugi header .podaci .ime {
+    display: none;
+  }
+  body .drugi .sanduce nav ul li p {
+    display: none;
+  }
+  body .drugi .sanduce nav ul li img {
+    margin-right: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

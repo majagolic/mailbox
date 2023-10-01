@@ -94,6 +94,7 @@ body{
                     box-shadow: 1px 1px inset lightgrey;
                     border-radius: 5px;
                     padding-left: 5px;
+                    border-color: lightgrey;
                 }
             }
 
@@ -105,12 +106,14 @@ body{
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
+                    color: $blue_color
                 }
             }
 
             img{
                 width: 40px;
                 margin-left: 10px;
+                
             }
             .burger{
                 display: none;
@@ -130,12 +133,14 @@ body{
                     flex-direction: row;
                     flex-wrap: wrap;
                     border-bottom: 2px solid $blue_color;
+                    margin-bottom: 5px;
                     li{
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
                         margin-right: 20px;
                         align-items: center;
+                        color: $blue_color;
                         
                         
                         img{
@@ -156,12 +161,93 @@ body{
             height: 8%;
             margin-bottom: 10px;
             background-color: $blue_email_background;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
+    
             
             div{
                 display: flex;
                 flex-direction: row;
+                align-items: center;
+
+                h2{
+                    color: $rose_color;
+                    margin-right: 15px;
+                    border: 0.1px solid $blue_color;
+                    border-radius: 50px;
+                    background-color: $blue_color;
+                    padding: 5px;
+                }
+                p{
+                    color: $beige_color;
+                }
+            }
+            p{
+                color: $beige_color;
             }
         }
     }
+}
+
+@include tablet {
+
+    .nav2{
+        display: none;
+    }
+    .sanduce{
+        #nav_bar {
+            ul{
+                li{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+}
+
+@include mobile {
+
+    .prvi{
+        display: none;
+    }
+    body{
+        width: 100%;
+            .drugi{
+                width: 100%;
+
+                header{
+                    form{
+                        display: none;
+                    }
+                    .burger{
+                        display: flex;
+                    }
+                    .podaci{
+                        .ime{
+                            display: none;
+                        }
+                    }
+                }
+                .sanduce{
+                    nav{
+                        ul{
+                            li{
+                                p{
+                                    display: none;
+                                }
+                                img{
+                                    margin-right: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
 }
 
